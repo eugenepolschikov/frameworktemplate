@@ -1,4 +1,4 @@
-package com.holidaysautos.webdriver;
+package com.productname.webdriver;
 
 
 import com.google.common.base.Function;

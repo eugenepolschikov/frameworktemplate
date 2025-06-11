@@ -1,4 +1,4 @@
-package com.holidaysautos.utils;
+package com.productname.utils;
 
 
 import org.apache.commons.io.FileUtils;

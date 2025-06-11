@@ -1,4 +1,4 @@
-package com.holidaysautos.core;
+package com.productname.core;
 
 import org.openqa.selenium.WebDriver;
 

@@ -1,4 +1,4 @@
-package com.holidaysautos.selenium.pages;
+package com.productname.selenium.pages;
 
 
 import org.openqa.selenium.WebDriver;
@@ -8,9 +8,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.yandex.qatools.allure.annotations.Step;
 
-import static com.holidaysautos.utils.CaptureSnapshot.captureSnapshotForAllure;
-import static com.holidaysautos.webdriver.ElementsUtil.getLongTimeIntervalSec;
-import static com.holidaysautos.webdriver.ElementsUtil.getShortestTimeIntervalSec;
+import static com.productname.utils.CaptureSnapshot.captureSnapshotForAllure;
+import static com.productname.webdriver.ElementsUtil.getLongTimeIntervalSec;
+import static com.productname.webdriver.ElementsUtil.getShortestTimeIntervalSec;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
 public abstract class Page {

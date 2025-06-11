@@ -1,7 +1,7 @@
-package com.holidaysautos.listeners;
+package com.productname.listeners;
 
 
-import com.holidaysautos.core.Screen;
+import com.productname.core.Screen;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;

@@ -1,15 +1,15 @@
-package com.holidaysautos.testcases;
+package com.productname.testcases;
 
 
-import com.holidaysautos.utils.DriverInitializer;
-import com.holidaysautos.utils.PropsLoader;
+import com.productname.utils.DriverInitializer;
+import com.productname.utils.PropsLoader;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
-import static com.holidaysautos.webdriver.ElementsUtil.waitForPageLoaded;
+import static com.productname.webdriver.ElementsUtil.waitForPageLoaded;
 
 
 public abstract class TestSuitesBase {
