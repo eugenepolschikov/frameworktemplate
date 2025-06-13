@@ -3,46 +3,36 @@ package com.productname.models;
 import java.util.Objects;
 
 public class CarDto {
-    private String carPrice;
-    private String carModelDescription;
 
-    public CarDto() {
+    private int wheelsNumber;
+    private String manufacturer;
+    private String model;
+
+
+    public CarDto(String manufacturer, String model, int wheelsNumber) {
+        this.wheelsNumber = wheelsNumber;
+        this.manufacturer = manufacturer;
+        this.model = model;
     }
 
-    public String getCarPrice() {
-        return carPrice;
+    public int getWheelsNumber() {
+        return wheelsNumber;
     }
 
-    public void setCarPrice(String carPrice) {
-        this.carPrice = carPrice;
+    public String getManufacturer() {
+        return manufacturer;
     }
 
-    public String getCarModelDescription() {
-        return carModelDescription;
-    }
-
-    public void setCarModelDescription(String carModelDescription) {
-        this.carModelDescription = carModelDescription;
+    public String getModel() {
+        return model;
     }
 
     @Override
     public String toString() {
         return "CarDto{" +
-            "carPrice='" + carPrice + '\'' +
-            ", carModelDescription='" + carModelDescription + '\'' +
+            "wheelsNumber=" + wheelsNumber +
+            ", manufacturer='" + manufacturer + '\'' +
+            ", model='" + model + '\'' +
             '}';
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        CarDto carDto = (CarDto) o;
-        return carPrice.equals(carDto.carPrice) && carModelDescription.equals(carDto.carModelDescription);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(carPrice, carModelDescription);
     }
 }
