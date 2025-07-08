@@ -14,7 +14,7 @@
             </run>
         </groups>
         <classes>
-            <class name="com.productname.testcases.functionalui.LandingPageTests"/>
+            <class name="com.productname.testcases.functionalui.OrangeHrmTests"/>
         </classes>
     </test>
 </suite>
